@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/kotlin
+    driverClassName: org.postgresql.Driver
+    username: kotlin2
+    password: kotlin2
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: create

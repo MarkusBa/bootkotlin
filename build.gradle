@@ -32,7 +32,8 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile("org.springframework.boot:spring-boot-starter-data-jpa")
-	compile("com.h2database:h2")
+	//compile("com.h2database:h2")
+	compile("org.postgresql:postgresql:9.4.1209")
 	compile("org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}")
 	compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.6.6")
 	testCompile('org.springframework.boot:spring-boot-starter-test') 
